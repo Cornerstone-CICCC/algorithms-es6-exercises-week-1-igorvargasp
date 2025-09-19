@@ -35,3 +35,11 @@ function makeLine(length) {
     }
     return line + "\n";
 }
+
+const buildTriangle = (width) => {
+    let triangle = "";
+    for (let i = 0; i < width; i++) {
+        triangle += makeLine(i);
+    }
+    return triangle;
+};
